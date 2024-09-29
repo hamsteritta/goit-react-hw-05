@@ -1,0 +1,35 @@
+.list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.list img{
+    width: 200px;
+    height: 300px;
+    display: block;
+    background: #444;
+}
+
+.list a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #333;
+    border-radius: 8px;
+}
+
+.list a p{
+    color: #fff;
+    font-weight: 600;
+}
+
+.list a:hover{
+    background: #111;
+}

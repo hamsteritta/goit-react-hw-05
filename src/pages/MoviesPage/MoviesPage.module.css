@@ -1,0 +1,17 @@
+.container{
+    padding: 20px;
+}
+.container form{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+.container form input{
+    border-radius: 8px;
+    padding: 0 10px;
+}
+.error{
+    color: rgb(226, 138, 138);
+    font-weight: 600;
+    padding: 10px;
+}

@@ -1,0 +1,44 @@
+.container{
+    padding: 20px;
+}
+h1{
+    color: #fff;
+}
+h2 span{
+    color: gold;
+}
+.info{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+.genresList{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0px;
+}
+
+.additionalList{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0px;
+}
+
+.navLink{
+    color: rgb(127, 148, 243);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.navLink:hover {
+    color: gold;
+  }
+  
+.active {
+    color: gold;
+}

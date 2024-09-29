@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    gap: 36px;
+    padding: 20px;    
+    margin: 0px;
+    background: #111;
+    list-style: none;
+
+}
+
+
+.navLink {
+    color: rgb(127, 148, 243);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+  .navLink:hover {
+    color: gold;
+  }
+  
+  .active {
+    color: gold;
+  }
