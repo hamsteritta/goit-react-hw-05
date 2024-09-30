@@ -25,6 +25,9 @@ h2 span {
   gap: 10px;
   padding: 0px;
 }
+.genresList li {
+  color: #fff;
+}
 
 .additionalList {
   list-style: none;
